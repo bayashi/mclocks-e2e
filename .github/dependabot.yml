@@ -1,0 +1,21 @@
+version: 2
+
+updates:
+
+- package-ecosystem: "github-actions"
+  open-pull-requests-limit: 5
+  directory: "/.github"
+  schedule:
+    interval: "monthly"
+  cooldown:
+    default-days: 15
+  target-branch: "main"
+
+- package-ecosystem: "npm"
+  open-pull-requests-limit: 10
+  directory: "/"
+  schedule:
+    interval: "monthly"
+  cooldown:
+    default-days: 15
+  target-branch: "main"
