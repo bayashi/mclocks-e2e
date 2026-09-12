@@ -58,6 +58,8 @@ pnpm test:headless
 
 mclocks workflows check out this repository next to the app (or under `mclocks-e2e/`), install both, start `pnpm dev:e2e`, then run `pnpm test` in mclocks.
 
+The checkout is **pinned to a commit SHA** in [mclocks `.github/workflows/e2e.yaml`](https://github.com/bayashi/mclocks/blob/main/.github/workflows/e2e.yaml) (not floating `main`). Merging to this repo's `main` does not change mclocks CI until that `ref` is bumped in a mclocks PR.
+
 ## License
 
 [The Artistic License 2.0](./LICENSE)
