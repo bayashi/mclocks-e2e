@@ -60,4 +60,4 @@ mclocks workflows check out this repository next to the app (or under `mclocks-e
 
 ## License
 
-[The Artistic License 2.0](https://github.com/bayashi/mclocks/blob/main/LICENSE)
+[The Artistic License 2.0](./LICENSE)
